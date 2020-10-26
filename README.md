@@ -7,8 +7,7 @@ You have to implement the following API automated checks over our DEMO PET STORE
 <li>Update this pet status to "sold". Assert status updated.</li>
 <li>Delete this pet. Assert deletion.</li>
 </ul>
-<br/>
-<br/>
+
 Exercise 2(DemoBlaze) - Web FE Automation <br/>
 Introduction: <br/>
 You have to implement the following Web automated checks over our DEMO ONLINE
