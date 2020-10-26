@@ -1,4 +1,4 @@
-Exercise 1 - REST API Automation 
+Exercise 1(DemoPetStore) - REST API Automation 
 Introduction
 You have to implement the following API automated checks over our DEMO PET STORE: https://petstore.swagger.io/
 		Get "available" pets. Assert expected result
@@ -7,7 +7,9 @@ You have to implement the following API automated checks over our DEMO PET STORE
 		Delete this pet. Assert deletion.
 
 
-Exercise 2 - Web FE Automation
+
+
+Exercise 2(DemoBlaze) - Web FE Automation
 Introduction
 You have to implement the following Web automated checks over our DEMO ONLINE
 SHOP: https://www.demoblaze.com/index.html
