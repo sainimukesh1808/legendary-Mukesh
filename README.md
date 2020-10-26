@@ -23,4 +23,4 @@ SHOP: https://www.demoblaze.com/index.html
 * Click on "Purchase"
 * Capture and log purchase Id and Amount.
 * Assert purchase amount equals expected.
-*Click on "Ok".
+* Click on "Ok".
