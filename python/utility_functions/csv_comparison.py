@@ -10,11 +10,11 @@ def csv_comparison(base_csv, new_csv, difference_csv_path, base_csv_path=None, n
     Args:
             base_csv (str) : name of reference csv file.
             new_csv (str) : name of new csv file.
-    difference_csv_path : path for difference csv.
-    base_csv_path : path of base csv file.
-    new_csv_path ; path of new csv file.
+            difference_csv_path : path for difference csv.
+            base_csv_path : path of base csv file.
+            new_csv_path ; path of new csv file.
     Returns:
-                    A csv file with differneces from both csv files.
+            A csv file with differneces from both csv files.
 
     Example:
             csv_comparison('reference','new')"""
@@ -69,16 +69,16 @@ def csv_comparison_on_specific_column(
     base_csv_path=None,
     new_csv_path=None,
 ):
-    """This function compare two csv files. Both CSV files should present in OutputRef folder of your .tst folder.
+    """This function compare two csv files.
     Args:
             base_csv (str) : name of reference csv file.
             new_csv (str) : name of new csv file.
-    name_of_columns_to_compare(list) : list of columns to be compared
-    difference_csv_path : path for difference csv.
-    base_csv_path : path of base csv file.
-    new_csv_path ; path of new csv file.
+            name_of_columns_to_compare(list) : list of columns to be compared
+            difference_csv_path : path for difference csv.
+            base_csv_path : path of base csv file.
+            new_csv_path : path of new csv file.
     Returns:
-                    A csv file with differneces from both csv files.
+            A csv file with differneces from both csv files.
     Example:
             csv_comparison_specific_column('reference','new',['column1','column2'])"""
     odt_path = systemPath.getLastBundlePath()
