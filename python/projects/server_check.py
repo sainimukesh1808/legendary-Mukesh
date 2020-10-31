@@ -1,19 +1,19 @@
 '''
     Requirements:
-        1. Fetch complete status of five services("passport_url","space_url", "dashboard_url", "federated_url", "cos_url") for six releasese(16x, 17x, 18x, 19x, 20x, 21x). 
-        2. Write a consolidated mail for all servers if-
-            a. Any service is down(Response Status is bad 4xx or 5xx).
-            b. Cos is shutdown.
-        3. Send this consolidated mail to users(Users are different for different time).
-        4. Mail should consist following information for each service and each release:
-                Release: R423,
-                Service Type: passport_url,
-                URL: https://vdevpril207am.ux.dsone.3ds.com:453/iam/
-                Status code: 503,
-	            Status Message: KO
-         5. Create a batch file to run this python file and pass required parameters from it(releases, users).
-         6. Run this batch file using Jenkins after each 30 mins.
-         7. Create single log file for comlete day and put it on shared location.
+	1. Fetch complete status of five services("passport_url","space_url", "dashboard_url", "federated_url", "cos_url") for six releasese(16x, 17x, 18x, 19x, 20x, 21x). 
+	2. Write a consolidated mail for all servers if-
+	    a. Any service is down(Response Status is bad 4xx or 5xx).
+	    b. Cos is shutdown.
+	3. Send this consolidated mail to users(Users are different for different time).
+	4. Mail should consist following information for each service and each release:
+		Release: R423,
+		Service Type: passport_url,
+		URL: https://vdevpril207am.ux.dsone.3ds.com:453/iam/
+		Status code: 503,
+		    Status Message: KO
+	 5. Create a batch file to run this python file and pass required parameters from it(releases, users).
+	 6. Run this batch file using Jenkins after each 30 mins.
+	 7. Create single log file for comlete day and put it on shared location.
 '''
 
 import subprocess
