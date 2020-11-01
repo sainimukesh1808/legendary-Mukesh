@@ -1,3 +1,19 @@
+/*
+DemoBlaze - Web FE Automation.
+Introduction:
+You have to implement the following Web automated checks over our DEMO ONLINE. SHOP: https://www.demoblaze.com/index.html.
+
+	1. Customer navigation through product categories: Phones, Laptops and Monitors.
+	2. Navigate to "Laptop" → "Sony vaio i5" and click on "Add to cart". Accept pop up confirmation.
+	3. Navigate to "Laptop" → "Dell i7 8gb" and click on "Add to cart". Accept pop up confirmation.
+	4. Navigate to "Cart" → Delete "Dell i7 8gb" from cart.
+	5. Click on "Place order".
+	6. Fill in all web form fields.
+	7. Click on "Purchase".
+	8. Capture and log purchase Id and Amount.
+	9. Assert purchase amount equals expected.
+	10. Click on "Ok".
+*/
 package TestNG;
 
 import org.testng.Assert;
