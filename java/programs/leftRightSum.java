@@ -1,3 +1,10 @@
+/*
+print the number/numbers who has/have equal sum of right side numbers and left side numbers.
+I/P: 2,3,1,2,1,5
+	2+3+1 = 6
+	1+5 = 6
+O/P: 2
+*/
 package com.qa.java;
 public class leftRightSum {
 		public static void main (String[] args) {
