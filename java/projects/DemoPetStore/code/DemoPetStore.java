@@ -1,3 +1,13 @@
+/*
+(DemoPetStore) - REST API Automation.
+Introduction:
+You have to implement the following API automated checks over our DEMO PET STORE: https://petstore.swagger.io/.
+
+	1. Get "available" pets. Assert expected result.
+	2. Post a new available pet to the store. Assert new pet added.
+	3. Update this pet status to "sold". Assert status updated.
+	4. Delete this pet. Assert deletion.
+*/
 package com.qa.pet;
 
 import org.testng.Assert;
